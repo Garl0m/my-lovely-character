@@ -6,24 +6,20 @@ body{
     line-height: 22px;
 }
 
-header {
-    background-color: rgb(49, 97, 71);
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 header h1 {
     color: rgba(243, 243, 242, 0.87);
     
 }
 
 header img {
-    border-radius: 165px;
     width: 300px;
     height: 300px;
     object-fit: cover;
     border: 15px solid #a2945fad;
+}
+
+.bg-primary{
+    background-color: rgb(49, 97, 71) !important;
 }
 
 h1, h2 {
@@ -73,3 +69,12 @@ footer p {
     color: #a2945fad;
     margin: 0;
 }
+
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+}
+
+.cute-font{
+    font-family: 'Righteous', cursive;
+}
+
